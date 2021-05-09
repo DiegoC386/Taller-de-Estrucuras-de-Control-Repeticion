@@ -8,3 +8,12 @@ Dividir 8 entre 2
 2 – 2 = 0    %resto de la división
 Imprima el restante efectuado Ejemplos de prueba
 """
+Cont=0
+Dividendo=int(input("Ingresar Dividendo: "))
+Divisor=int(input("Ingresar Divisor: "))
+Dividendo=Dividendo-Divisor
+
+while (Dividendo>=0):
+	Cont=Cont+1
+	Dividendo=Dividendo-Divisor
+print("La Division es igual a: "+ str(Cont))
